@@ -1,0 +1,101 @@
+.Conteiner-principal{
+    display:flex;
+    justify-items:left;
+}
+
+/* Cambia el fondo del navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    width: 250px; /* Ancho de la barra lateral */
+    background-color: #e6e5e5; /* Gris claro */
+    border: 2px solid #c4c4c4;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Cambia el fondo del navbar */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Cambia el color de fondo de los enlaces y agrega un borde en hover */
+.navbar-nav .nav-link {
+    color: #333; /* Color de texto */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.1s ease; /* Animación para el hover */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e0e0e0; /* Fondo gris más oscuro en hover */
+    border: 2px solid #000; /* Borde negro sólido */
+    color: #000; /* Cambia el color del texto en hover */
+}
+
+/* Personaliza el título de la marca */
+.Titulo .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333; /* Color del título */
+    text-shadow: 
+        -1px -2px 0 #ffffff, /* Sombra hacia arriba-izquierda */
+        1px -1px 0 #ffffff,  /* Sombra hacia arriba-derecha */
+        -2px 1px 0 #ffffff,  /* Sombra hacia abajo-izquierda */
+        1px 1px 0 #ffffff;   /* Sombra hacia abajo-derecha */
+}
+
+/* Estilo inicial del botón */
+.navbar-toggle {
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: 2px #c4c4c4 solid; /* borde inicial */
+    transition: border 0.3s ease; /* Transición suave */
+}
+
+.navbar-toggle:hover {
+    border: 2px solid #000; /* Borde negro de 1px */
+    transition: border 0.3s ease; /* Transición suave */
+}
+
+.Cotenedor-Principal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.Contenedor-Grupos {
+    background-color: #e6e5e5;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+    width: calc(16% - 10px);
+    margin-bottom: 10px;
+}
+
+.texto-Grupos {
+    background-color: #c4c4c4;
+    font-size: x-large;
+    text-align: center;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+    height: 97px;
+    width: 100%; 
+}
+
+
